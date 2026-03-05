@@ -3,24 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <title>Jack of Many Trades | Handyman, IT & Security</title>
+    <meta
+      name="description"
+      content="Local handyman, IT support, and security installation services across Newbury and surrounding areas."
+    />
+    <meta name="author" content="Jack of Many Trades" />
+    <meta property="og:title" content="Jack of Many Trades" />
+    <meta
+      property="og:description"
+      content="Your local expert for handyman services, IT support, and security system installation."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:image" content="assets/hero-bg.jpg" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="site-header">
+      <nav class="container nav">
+        <a href="#" class="brand">Jack of Many <span>Trades</span></a>
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+        <ul class="nav-links" id="desktop-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="mobile-menu" id="mobile-menu" hidden>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="assets/hero-bg.jpg" alt="Professional tools on workbench" class="hero-bg" />
+        <div class="overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Handyman • IT • Security</p>
+          <h1>Jack of Many <span>Trades</span></h1>
+          <p>
+            Your local expert for handyman services, IT support, and security system installation. One call does it all.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Get a Quote</a>
+            <a class="btn secondary" href="#services">View Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <p class="section-label">What We Do</p>
+          <h2>Services</h2>
+          <div class="card-grid" id="services-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="section-label">Portfolio</p>
+          <h2>Recent Projects</h2>
+          <p class="section-subtitle">A selection of jobs we've completed for happy customers in the local area.</p>
+          <div class="project-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section class="areas section-alt">
+        <div class="container centered">
+          <p class="section-label">Areas Covered</p>
+          <p class="areas-list" id="areas-list"></p>
+          <p class="areas-note">…and surrounding Berkshire villages.</p>
+        </div>
+      </section>
+
+      <section id="pricing" class="section section-alt-light">
+        <div class="container centered">
+          <p class="section-label">Pricing</p>
+          <h2>Simple, Honest Rates</h2>
+          <div class="pricing-card">
+            <p class="price"><strong>£50</strong> / first hour</p>
+            <p class="price-sub">then £35/hr after</p>
+            <ul id="pricing-list"></ul>
+            <a class="btn primary full" href="#contact">Book Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container centered">
+          <p class="section-label">Get In Touch</p>
+          <h2>Ready to Get Started?</h2>
+          <p class="section-subtitle">Drop us a message or give us a call. We're always happy to help.</p>
+          <div class="contact-grid" id="contact-grid"></div>
+          <a class="btn primary" href="mailto:jackofmanytrades@gmail.com">Get a Free Quote</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container centered">
+        <p class="brand">Jack of Many <span>Trades</span></p>
+        <p>© <span id="year"></span> Jack of Many Trades. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
