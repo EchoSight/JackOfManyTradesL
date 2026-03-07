@@ -368,8 +368,12 @@ h2 {
 }
 
 .time {
-  color: #d97706;
+  color: var(--accent);
   font-weight: 700;
+}
+
+.time-icon {
+  color: var(--accent);
 }
 
 .areas-list {

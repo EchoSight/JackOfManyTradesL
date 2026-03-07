@@ -122,7 +122,7 @@ function render() {
           <p><strong>Problem:</strong> ${project.problem}</p>
           <p><strong>Solution:</strong> ${project.solution}</p>
           <p><strong>Result:</strong> ${project.result}</p>
-          <p class="time">⏱ ${project.time}</p>
+          <p class="time"><span class="time-icon" aria-hidden="true">⏱︎</span> ${project.time}</p>
         </div>
       </article>
     `,
