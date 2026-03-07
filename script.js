@@ -21,7 +21,7 @@ const iconSvgs = {
 
 const projects = [
   {
-    image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1200&q=80',
+    image: 'assets\RecentProjectsImages\ShedPaintTreatment.jpg',
     alt: 'Freshly painted and treated garden shed exterior',
     title: 'Shed Painting and Treatment – Newbury',
     problem: 'Shed panels were weathered and starting to absorb moisture after years without treatment.',
@@ -48,11 +48,11 @@ const projects = [
     time: '2 hours',
   },
   {
-    image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1200&q=80',
+    image: 'assets\RecentProjectsImages\75InchTVWallMount.jpeg',
     alt: 'Wall-mounted television with hidden cables',
     title: 'TV Wall Mount – 75 inch TV',
     problem: '75 inch TV needed secure mounting to replace a bulky floor stand.',
-    solution: 'Installed the wall bracket, mounted and levelled the TV, and checked all fixings and cable routing.',
+    solution: 'Installed the wall bracket, mounted and levelled the TV, connecting tv to the internet and checked all fixings and cable routing.',
     result: 'Secure, space-saving setup with improved viewing position.',
     time: '2 hours',
   },
@@ -67,7 +67,7 @@ const projects = [
     time: '2 hours',
   },
   {
-    image: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1200&q=80',
+    image: 'assets\RecentProjectsImages\KitchenInstall_Newbury.jpg',
     alt: 'IKEA kitchen replacement with new cabinets, lighting, and laundry appliance installation',
     title: 'IKEA Kitchen Replacement – Newbury',
     problem: 'Existing kitchen was outdated and needed a full IKEA replacement with improved storage, lighting, and appliance setup.',
