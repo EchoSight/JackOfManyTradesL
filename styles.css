@@ -448,6 +448,31 @@ h2 {
   margin: 0.2rem 0;
 }
 
+
+.contact-actions {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-link {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(217, 119, 6, 0.2);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.84rem;
+  transition: background-color 0.2s ease;
+}
+
+.contact-link:hover {
+  background: rgba(217, 119, 6, 0.32);
+}
+
 .site-footer {
   background: #ffffff;
   color: #64748b;

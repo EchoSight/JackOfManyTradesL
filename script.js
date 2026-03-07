@@ -79,8 +79,21 @@ const projects = [
 const areas = ['Newbury', 'Thatcham', 'Hungerford', 'Kingsclere', 'Wash Common', 'Greenham'];
 const pricingFeatures = ['No call-out charge', 'All trades & IT covered', 'Friendly, local service', 'Free estimates on large jobs'];
 const contactItems = [
-  { label: 'Call Us', value: '07767 436026', icon: 'phone' },
-  { label: 'Email', value: 'jackofmanytrades@gmail.com', icon: 'mail' },
+  {
+    label: 'Call Us',
+    value: '07767 436026',
+    icon: 'phone',
+    actions: [
+      { label: 'Call', href: 'tel:+447767436026' },
+      { label: 'WhatsApp', href: 'https://wa.me/447767436026', external: true },
+    ],
+  },
+  {
+    label: 'Email',
+    value: 'jackofmanytrades@gmail.com',
+    icon: 'mail',
+    actions: [{ label: 'Send Email', href: 'mailto:jackofmanytrades@gmail.com' }],
+  },
   { label: 'Area', value: 'Local & Surrounding Areas', icon: 'map' },
 ];
 
@@ -117,8 +130,21 @@ function render() {
   document.getElementById('pricing-list').innerHTML = pricingFeatures.map((item) => `<li>${item}</li>`).join('');
   document.getElementById('contact-grid').innerHTML = contactItems
     .map(
-      (item) =>
-        `<article class="contact-item fade-in"><div class="contact-icon">${iconSvgs[item.icon]}</div><p><strong>${item.label}</strong></p><p>${item.value}</p></article>`,
+      (item) => `<article class="contact-item fade-in">
+        <div class="contact-icon">${iconSvgs[item.icon]}</div>
+        <p><strong>${item.label}</strong></p>
+        <p>${item.value}</p>
+        ${
+          item.actions
+            ? `<div class="contact-actions">${item.actions
+                .map(
+                  (action) =>
+                    `<a href="${action.href}" class="contact-link" ${action.external ? 'target="_blank" rel="noopener noreferrer"' : ''}>${action.label}</a>`,
+                )
+                .join('')}</div>`
+            : ''
+        }
+      </article>`,
     )
     .join('');
   document.getElementById('year').textContent = new Date().getFullYear();
