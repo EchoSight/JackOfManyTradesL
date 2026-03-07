@@ -19,9 +19,11 @@ const iconSvgs = {
   map: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-5.8 7-12a7 7 0 1 0-14 0c0 6.2 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>',
 };
 
+const recentProjectImageVersion = '20260307';
+
 const projects = [
   {
-    image: 'assets\RecentProjectsImages\ShedPaintTreatment.jpg',
+    image: `assets/RecentProjectsImages/ShedPaintTreatment.jpg?v=${recentProjectImageVersion}`,
     alt: 'Freshly painted and treated garden shed exterior',
     title: 'Shed Painting and Treatment – Newbury',
     problem: 'Shed panels were weathered and starting to absorb moisture after years without treatment.',
@@ -48,7 +50,7 @@ const projects = [
     time: '2 hours',
   },
   {
-    image: 'assets\RecentProjectsImages\75InchTVWallMount.jpeg',
+    image: `assets/RecentProjectsImages/75InchTVWallMount.jpeg?v=${recentProjectImageVersion}`,
     alt: 'Wall-mounted television with hidden cables',
     title: 'TV Wall Mount – 75 inch TV',
     problem: '75 inch TV needed secure mounting to replace a bulky floor stand.',
@@ -67,7 +69,7 @@ const projects = [
     time: '2 hours',
   },
   {
-    image: 'assets\RecentProjectsImages\KitchenInstall_Newbury.jpg',
+    image: `assets/RecentProjectsImages/KitchenInstall_Newbury.jpg?v=${recentProjectImageVersion}`,
     alt: 'IKEA kitchen replacement with new cabinets, lighting, and laundry appliance installation',
     title: 'IKEA Kitchen Replacement – Newbury',
     problem: 'Existing kitchen was outdated and needed a full IKEA replacement with improved storage, lighting, and appliance setup.',
