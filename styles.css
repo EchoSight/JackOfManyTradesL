@@ -378,12 +378,14 @@ h2 {
 
 .areas-list {
   color: #e6edf8;
-  font-size: 1.1rem;
+  font-size: clamp(1.25rem, 2.3vw, 1.8rem);
+  font-weight: 600;
+  line-height: 1.7;
 }
 
 .areas-note {
-  color: #b8c5d9;
-  font-size: 0.92rem;
+  color: #d0daea;
+  font-size: clamp(1.02rem, 1.7vw, 1.2rem);
 }
 
 .pricing-card {
