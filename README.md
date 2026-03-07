@@ -1,22 +1,24 @@
-# Jack Of Many Trades
+# Jack of Many Trades (Static Website)
 
-This repository is a static website built with plain HTML, CSS, and JavaScript for easy hosting on GitHub Pages.
+This project is now a plain static website built with:
 
-## Run locally
+- HTML
+- CSS
+- JavaScript
 
-Because this is a static site, you can open `index.html` directly in your browser.
+## Local preview
 
-To run with a local server:
+From the project root, run a simple static file server:
 
-```bash
-python3 -m http.server 8000
+```sh
+python3 -m http.server 4173
 ```
 
-Then open <http://localhost:8000>.
+Then open `http://localhost:4173` in your browser.
 
 ## Deploy to GitHub Pages
 
 1. Push this repository to GitHub.
-2. In **Settings → Pages**, set source to **Deploy from a branch**.
-3. Select your default branch and `/ (root)` folder.
-4. Save, then wait for GitHub Pages to publish.
+2. In repository settings, open **Pages**.
+3. Set the source to deploy from your default branch (root folder).
+4. Save and wait for the site URL to become active.
