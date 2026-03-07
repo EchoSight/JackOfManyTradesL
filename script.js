@@ -97,7 +97,7 @@ const contactItems = [
     icon: 'mail',
     actions: [{ label: 'Send Email', href: 'mailto:jackofmanytrades@gmail.com' }],
   },
-  { label: 'Area', value: 'Local & Surrounding Areas', icon: 'map' },
+  { label: 'Area', value: 'Newbury & Surrounding Areas', icon: 'map' },
 ];
 
 function render() {
