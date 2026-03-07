@@ -67,13 +67,13 @@ const projects = [
     time: '2 hours',
   },
   {
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Assembled bedroom furniture in a tidy room',
-    title: 'Flat-Pack Bedroom Furniture – Greenham',
-    problem: 'Multiple boxed units needed assembly before a house move-in weekend.',
-    solution: 'Assembled wardrobe, chest of drawers, and bedside units with final alignment checks.',
-    result: 'Furniture ready for immediate use with all fixings safely secured.',
-    time: '4 hours',
+    image: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1200&q=80',
+    alt: 'IKEA kitchen replacement with new cabinets, lighting, and laundry appliance installation',
+    title: 'IKEA Kitchen Replacement – Newbury',
+    problem: 'Existing kitchen was outdated and needed a full IKEA replacement with improved storage, lighting, and appliance setup.',
+    solution: 'Planned the new IKEA kitchen design, assembled and installed cabinets, attached all doors, fitted task lighting, and installed the washing machine and tumble dryer. Extractor unit, oven, and fridge installation were coordinated separately for a qualified electrician.',
+    result: 'Modern kitchen fully replaced with core units and laundry appliances in place, with specialist electrical appliances allocated to certified installation.',
+    time: '3 days',
   },
 ];
 
