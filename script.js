@@ -52,7 +52,7 @@ const projects = [
   {
     image: `assets/RecentProjectsImages/75InchTVWallMount.jpeg?v=${recentProjectImageVersion}`,
     alt: 'Wall-mounted television with hidden cables',
-    title: 'TV Wall Mount – 75 inch TV',
+    title: 'TV Wall Mount – 75 inch TV – Newbury',
     problem: '75 inch TV needed secure mounting to replace a bulky floor stand.',
     solution: 'Installed the wall bracket, mounted and levelled the TV, connecting tv to the internet and checked all fixings and cable routing.',
     result: 'Secure, space-saving setup with improved viewing position.',
