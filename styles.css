@@ -223,6 +223,10 @@ body {
   color: #f3f6fb;
 }
 
+.areas {
+  padding: 6.5rem 0;
+}
+
 .section-alt-light {
   background: #ffffff;
 }
