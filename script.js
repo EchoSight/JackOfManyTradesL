@@ -80,7 +80,7 @@ const projects = [
 ];
 
 const areas = ['Newbury', 'Thatcham', 'Hungerford', 'Kingsclere', 'Wash Common', 'Greenham'];
-const pricingFeatures = ['No call-out charge', 'All trades & IT covered', 'Friendly, local service', 'Free estimates on large jobs'];
+const pricingFeatures = ['No call-out charge', 'Most trades & IT covered', 'Friendly, local service', 'Free estimates on large jobs'];
 const contactItems = [
   {
     label: 'Call Us',
